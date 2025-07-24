@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+
+}
+.nav{
+    background-color:black;
+   
+    height: 60px;
+    
+    color: white;
+   
+    align-items: center;
+      display: flex;
+        border: 2px solid transparent;
+    justify-content: space-between;
+    
+}
+.boder
+{
+    border: 0.5px solid transparent;
+
+}
+.boder:hover{
+     border: 0.5px solid white;
+
+
+}
+.navlogo{
+    height: 60px;
+    width: 100px;
+}
+.logo{
+    height: 60px;
+    width: 100%;
+    background-image: url("chattogram-bangladesh-april-24-2023-260nw-2292992631.webp");
+    background-size: cover;
+   
+}
+.navloc{
+   color: #cccc;
+   font-size: 0.8rem;
+   border: 2px solid transparent;
+   /* margin-left: 20px;  */
+}
+
+
+.navloca{
+    display: flex;
+    color: white;
+    font-size: 1rem;
+}
+
+.navsearch{
+    display: flex;
+   justify-content: space-evenly;
+   color: orange;
+   background-color: white;
+   width: 600px;
+   height: 45px;
+   border-radius: 10%;
+}
+.search-select{
+    width: 40px;
+    height: 45px;
+    background-color: #f3f3f3;
+     border-radius: 10%;
+    
+}
+.search-input{
+    width: 600px;
+    height: 40px;
+    
+}
+/* .navall
+{
+    
+   
+    display: flex;
+   
+     border: 2px solid transparent;
+     background-color: #0f1111;
+     font-size: 10px;
+}
+.navall:hover{
+    border: 2px solid transparent;
+    background-color: cadetblue;
+} */
+.navmag{
+    width: 45px;
+    height: 45px;
+    color: black;
+    background-color:  #FF9900;
+    text-align: center;
+    justify-content: center;
+     border-radius: 10%;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-ac{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.plane{
+    height: 39px;
+    display: flex;
+
+justify-content: space-between;
+align-items: center;
+background-color: #222f3d;
+
+    
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+#bar{
+    color: white;
+    font-size: 1.5rem;
+}
+.boder{
+    border: 1px solid transparent;
+}
+.boder:hover{
+    border: 1px solid white;
+}
+.hero_image{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 1400px;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  background-color: beige;
+}
+.box
+{
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    /* border: 1px solid black; */
+}
+.box-img{
+  
+    background-size: cover;
+    margin-left: 20px;
+    width: 90%;
+background-size: cover;
+   background-position: center;
+   margin: 0 auto;  
+    border-radius: 8px; /* Optional: rounded corners */
+    height:350px ;
+}
+.footer1{
+    background-color: #37475a;
+    color: white;
+    text-align: center;
+padding: 15px;
+    height: 40px;
+
+}
+.footer2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 2rem;
+}
+ul a {
+    display: block;
+    font-size: 15px;
+    margin: 15px;
+}
